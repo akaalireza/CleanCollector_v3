@@ -1,0 +1,177 @@
+
+#myInput[type=text] {
+    height: 46px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #00303f;
+    color: #00303f;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: left;
+    margin-left: 22px;
+}
+button.btn.btn-block{
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#stepsBTN:hover{
+    width: 120%;
+}
+#myInput[type=text]:focus {
+    width: 80%;
+}
+.w3-col.s9.w3-center {
+    padding-left: 25px
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+}
+#myTable{
+    box-sizing: border-box;
+    border: 2px solid #00303f;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+#searchAndTitle{
+    margin-bottom: -46px;
+}
+.addButton {
+    width: 185px;
+    margin-right: -22px;
+    outline: none;
+    height: 46px;
+    float: right;
+    text-align: center;
+
+    border-radius: 4px;
+    background: #fff;
+    border: 2px solid #00303f;
+    color: #00303f;
+    letter-spacing: 1px;
+    text-shadow: none;
+    font-size: 21px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.addButton:hover {
+    color:#cae4db;
+    background: #00303f;
+}
+.addButton:active {
+
+    letter-spacing: 2px ;
+}
+.modal-content {
+    height: 600px;
+    margin-left: -170px;
+    width: 138%;
+}
+
+.sidenav {
+    margin-left: -170px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #002440;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#modalId {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.Option{
+    width: 92%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.aaa{
+    margin-top: 12px;
+    width: 98%;
+    margin-left: 7px;
+    float: right;
+    border-left: ridge #084990;
+    margin-right: 12px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+input.editeBTNClass{
+    float: right;
+}
+ul.ul_var_class{
+    list-style: none;
+}
+input.textBoxClass{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: table;
+    height: 28px;
+    width: 480px;
+}
+select.comboBoxClass{
+    height: 35px;
+    width: 300px;
+    font-size: 21px;
+}
+input.emailClass{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: table;
+    height: 28px;
+    width: 480px;
+}
+.addInstModalClass{
+    height: 447px;
+    margin-left: 20px;
+    width: 90%;
+}
+.tabletitle{
+    margin-top: -5px;
+}
+.tablecontent{
+    margin-bottom: 18px;
+}
+.scroll3{
+    overflow: scroll;
+}
